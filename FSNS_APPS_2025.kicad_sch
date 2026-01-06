@@ -5417,8 +5417,8 @@
 		(uuid "35912860-f302-42df-9a95-5f5272356eb1")
 	)
 	(no_connect
-		(at 226.06 57.15)
-		(uuid "3ec3f2f4-821f-4fd3-8a9d-32608d3cd695")
+		(at 190.5 77.47)
+		(uuid "3cb0ba1c-0090-495b-a385-7152f098f066")
 	)
 	(no_connect
 		(at 190.5 64.77)
@@ -5445,6 +5445,10 @@
 		(uuid "843e89e7-ce56-429a-ab91-c56bd0b1ec53")
 	)
 	(no_connect
+		(at 190.5 74.93)
+		(uuid "89205845-187c-4b97-93f6-e7bf27adf709")
+	)
+	(no_connect
 		(at 190.5 95.25)
 		(uuid "8cb30b57-d1c6-4905-8207-aee096ffd6ae")
 	)
@@ -5459,10 +5463,6 @@
 	(no_connect
 		(at 190.5 85.09)
 		(uuid "b910ca21-3c9a-4cfe-939e-b9875eb80c7e")
-	)
-	(no_connect
-		(at 226.06 59.69)
-		(uuid "c07f5382-62cd-4920-9a94-0bdb2abf2f68")
 	)
 	(no_connect
 		(at 190.5 87.63)
@@ -6016,6 +6016,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 57.15) (xy 232.41 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b630fed-ecf4-4af6-b204-815392bd17c6")
+	)
+	(wire
+		(pts
 			(xy 226.06 41.91) (xy 254 41.91)
 		)
 		(stroke
@@ -6283,6 +6293,16 @@
 			(type default)
 		)
 		(uuid "51738553-5314-4d28-8262-25efb6a10045")
+	)
+	(wire
+		(pts
+			(xy 220.98 134.62) (xy 224.79 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c0c84c-7e2d-4840-987c-a08bb2c3c383")
 	)
 	(wire
 		(pts
@@ -6696,6 +6716,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 59.69) (xy 232.41 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71fc5631-ab95-4865-9a9f-93fcd00dc311")
+	)
+	(wire
+		(pts
 			(xy 200.66 127) (xy 200.66 132.08)
 		)
 		(stroke
@@ -6886,6 +6916,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 134.62) (xy 224.79 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8469e1f1-abc3-4fc9-b17e-db59653750ef")
+	)
+	(wire
+		(pts
 			(xy 254 45.72) (xy 252.73 45.72)
 		)
 		(stroke
@@ -6923,16 +6963,6 @@
 			(type default)
 		)
 		(uuid "8803277a-663d-4d5c-ab2c-1c3d1c4bdf81")
-	)
-	(wire
-		(pts
-			(xy 181.61 74.93) (xy 190.5 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8956357d-06ea-4b30-886a-f1c3d2e9f900")
 	)
 	(wire
 		(pts
@@ -7203,16 +7233,6 @@
 			(type default)
 		)
 		(uuid "a3fc874c-d18a-4115-9265-c6515caf058c")
-	)
-	(wire
-		(pts
-			(xy 181.61 77.47) (xy 190.5 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5c0a6ad-9de8-4fd8-b90c-dd7d2dd282a0")
 	)
 	(wire
 		(pts
@@ -8274,7 +8294,27 @@
 		)
 		(uuid "092fb6da-585e-4ce4-baf5-39c193a67ed0")
 	)
-	(label "PB1"
+	(label "LED_DBG_4"
+		(at 278.13 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2362b582-8064-4d41-badd-8c9f95a70420")
+	)
+	(label "LED_DBG_3"
+		(at 278.13 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "23c305ae-a35d-4c23-8374-7766ef0bc197")
+	)
+	(label "LED_DBG_2"
 		(at 278.13 143.51 180)
 		(effects
 			(font
@@ -8284,7 +8324,7 @@
 		)
 		(uuid "2574572e-2177-4d90-bf28-1fdd0958891e")
 	)
-	(label "PB0"
+	(label "LED_DBG_1"
 		(at 181.61 69.85 0)
 		(effects
 			(font
@@ -8293,16 +8333,6 @@
 			(justify left bottom)
 		)
 		(uuid "2a7529a0-aa5c-4754-85d4-4bb0dd1bd18d")
-	)
-	(label "PB3"
-		(at 181.61 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2fdd0f94-caea-41b6-8940-b9e3149ec049")
 	)
 	(label "OSC_IN"
 		(at 181.61 52.07 0)
@@ -8313,16 +8343,6 @@
 			(justify left bottom)
 		)
 		(uuid "3a09c1b8-a75b-4019-8b85-abb744ded843")
-	)
-	(label "PB3"
-		(at 278.13 158.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "40c615ab-80be-46da-ad57-b349c84310bf")
 	)
 	(label "CAN_TX"
 		(at 101.6 181.61 0)
@@ -8354,7 +8374,17 @@
 		)
 		(uuid "5cf5c317-e437-4433-a70a-1650d22a412f")
 	)
-	(label "PB0"
+	(label "LED_DBG_4"
+		(at 232.41 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65c0761b-01b4-4523-854e-c971f89af298")
+	)
+	(label "LED_DBG_1"
 		(at 278.13 135.89 180)
 		(effects
 			(font
@@ -8373,16 +8403,6 @@
 			(justify right bottom)
 		)
 		(uuid "71339a78-2214-4db5-a6f5-d2cf29d3cf05")
-	)
-	(label "PB2"
-		(at 181.61 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "72111984-6e86-46e4-bb31-4a9003602fc2")
 	)
 	(label "OSC_OUT"
 		(at 128.27 118.11 0)
@@ -8414,7 +8434,7 @@
 		)
 		(uuid "7e671c37-29cb-43dd-880b-a12d5931f5b8")
 	)
-	(label "PB1"
+	(label "LED_DBG_2"
 		(at 181.61 72.39 0)
 		(effects
 			(font
@@ -8484,16 +8504,6 @@
 		)
 		(uuid "aa710994-4e1e-49c0-b4e5-e5ecad8eb76f")
 	)
-	(label "PB2"
-		(at 278.13 151.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b6ac3970-a47e-4fcd-96fa-ed094e173c3f")
-	)
 	(label "PWR_LED_3.3V_K"
 		(at 269.24 91.44 0)
 		(effects
@@ -8543,6 +8553,16 @@
 			(justify left bottom)
 		)
 		(uuid "f6b0ea54-7821-4e97-a984-b143baaf89e5")
+	)
+	(label "LED_DBG_3"
+		(at 232.41 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6df1827-d151-484a-b934-5c4e6f983a9a")
 	)
 	(label "SWDIO"
 		(at 105.41 80.01 180)
@@ -8680,7 +8700,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 63.8048 140.97 0)
 			(effects
 				(font
@@ -8750,7 +8770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.1152 33.02 0)
 			(effects
 				(font
@@ -8883,7 +8903,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 265.43 151.13 0)
 			(effects
 				(font
@@ -9001,6 +9021,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 224.79 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cdb47f4-7ea5-4484-8a15-aa85e4ca5eff")
+		(property "Reference" "#PWR049"
+			(at 224.79 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa5234f0-3648-4212-83fa-2e170275795d")
+		)
+		(instances
+			(project "FSNS_APPS_2025"
+				(path "/84b2f9c6-f788-4685-8b6c-d48d40cc3830"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TI_Linear_regulator:LM1117-Q1_18V_1A")
 		(at 80.01 48.26 0)
 		(unit 1)
@@ -9096,7 +9183,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 265.43 100.33 0)
 			(effects
 				(font
@@ -9580,7 +9667,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 44.45 128.5748 0)
 			(effects
 				(font
@@ -9715,7 +9802,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 110.1852 58.42 0)
 			(effects
 				(font
@@ -9850,7 +9937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 20.0152 59.69 0)
 			(effects
 				(font
@@ -9918,7 +10005,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 254 93.218 90)
 			(effects
 				(font
@@ -10050,7 +10137,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 134.62 155.2448 0)
 			(effects
 				(font
@@ -10185,7 +10272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 110.1852 31.75 0)
 			(effects
 				(font
@@ -10253,7 +10340,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 254 119.888 90)
 			(effects
 				(font
@@ -10323,7 +10410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 174.9552 34.29 0)
 			(effects
 				(font
@@ -10391,7 +10478,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 44.45 166.6748 0)
 			(effects
 				(font
@@ -10762,7 +10849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 234.6452 34.29 0)
 			(effects
 				(font
@@ -10829,7 +10916,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 120.65 120.65 0)
 			(effects
 				(font
@@ -10905,7 +10992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 186.3852 34.29 0)
 			(effects
 				(font
@@ -11047,7 +11134,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 176.53 48.768 90)
 			(effects
 				(font
@@ -11117,7 +11204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 152.0952 34.29 0)
 			(effects
 				(font
@@ -11185,7 +11272,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 254 160.528 90)
 			(effects
 				(font
@@ -11255,7 +11342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 72.0852 33.02 0)
 			(effects
 				(font
@@ -11325,7 +11412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 31.242 86.36 90)
 			(effects
 				(font
@@ -11527,7 +11614,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 20.0152 34.29 0)
 			(effects
 				(font
@@ -11660,7 +11747,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 265.43 118.11 0)
 			(effects
 				(font
@@ -11949,7 +12036,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 254 102.108 90)
 			(effects
 				(font
@@ -12017,7 +12104,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 254 152.908 90)
 			(effects
 				(font
@@ -12151,7 +12238,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 186.69 151.638 90)
 			(effects
 				(font
@@ -12418,7 +12505,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 265.43 91.44 0)
 			(effects
 				(font
@@ -12495,7 +12582,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 57.15 141.478 90)
 			(effects
 				(font
@@ -12565,7 +12652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 248.6152 34.29 0)
 			(effects
 				(font
@@ -12635,7 +12722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 73.152 86.36 90)
 			(effects
 				(font
@@ -12895,7 +12982,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 265.43 143.51 0)
 			(effects
 				(font
@@ -13042,7 +13129,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 265.43 135.89 0)
 			(effects
 				(font
@@ -13189,7 +13276,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 254 110.998 90)
 			(effects
 				(font
@@ -13659,7 +13746,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 195.58 159.258 90)
 			(effects
 				(font
@@ -14266,7 +14353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 129.2352 137.16 0)
 			(effects
 				(font
@@ -14466,7 +14553,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 57.15 179.578 90)
 			(effects
 				(font
@@ -14603,7 +14690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 271.4752 34.29 0)
 			(effects
 				(font
@@ -14671,7 +14758,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 254 145.288 90)
 			(effects
 				(font
@@ -14741,7 +14828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 163.5252 34.29 0)
 			(effects
 				(font
@@ -14876,7 +14963,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 152.0952 50.8 0)
 			(effects
 				(font
@@ -15233,7 +15320,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 63.8048 179.07 0)
 			(effects
 				(font
@@ -15301,7 +15388,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 265.43 109.22 0)
 			(effects
 				(font
@@ -15450,7 +15537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 140.6652 34.29 0)
 			(effects
 				(font
@@ -15588,7 +15675,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 265.43 158.75 0)
 			(effects
 				(font
@@ -15799,7 +15886,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 254 137.668 90)
 			(effects
 				(font
@@ -16001,7 +16088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.1152 58.42 0)
 			(effects
 				(font
@@ -16402,7 +16489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 72.0852 59.69 0)
 			(effects
 				(font
@@ -16603,7 +16690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 111.4552 137.16 0)
 			(effects
 				(font
@@ -16671,7 +16758,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 260.35 27.178 90)
 			(effects
 				(font
